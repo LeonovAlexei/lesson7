@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF_Udvoitel", "WF_Udvoitel\WF_Udvoitel.csproj", "{D3242D02-3663-4D84-B0C4-EFB90F11B906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheNumber", "GuessTheNumber\GuessTheNumber.csproj", "{491373CC-43E4-49C9-87F0-94586937F05C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3242D02-3663-4D84-B0C4-EFB90F11B906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3242D02-3663-4D84-B0C4-EFB90F11B906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3242D02-3663-4D84-B0C4-EFB90F11B906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3242D02-3663-4D84-B0C4-EFB90F11B906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491373CC-43E4-49C9-87F0-94586937F05C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491373CC-43E4-49C9-87F0-94586937F05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491373CC-43E4-49C9-87F0-94586937F05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491373CC-43E4-49C9-87F0-94586937F05C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3C0397B-5F67-4FDB-BC3A-5444694BC2D3}
+	EndGlobalSection
+EndGlobal
