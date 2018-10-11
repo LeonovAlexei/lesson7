@@ -14,6 +14,7 @@ namespace WF_Udvoitel
         [STAThread]
         static void Main()
         {
+            //обновляем для пула в Гит
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             

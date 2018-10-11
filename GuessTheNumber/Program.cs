@@ -14,6 +14,7 @@ namespace GuessTheNumber
         [STAThread]
         static void Main()
         {
+            //обновляем для пула в Гит
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new GuessTheNumber());

@@ -36,9 +36,9 @@
             this.lblScope = new System.Windows.Forms.Label();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.игратьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.отменитьХодToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.правилаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblcolamout = new System.Windows.Forms.Label();
-            this.отменитьХодToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.menuStrip2.SuspendLayout();
@@ -87,7 +87,7 @@
             // lblScopeName
             // 
             this.lblScopeName.AutoSize = true;
-            this.lblScopeName.Location = new System.Drawing.Point(161, 181);
+            this.lblScopeName.Location = new System.Drawing.Point(165, 181);
             this.lblScopeName.Name = "lblScopeName";
             this.lblScopeName.Size = new System.Drawing.Size(79, 13);
             this.lblScopeName.TabIndex = 4;
@@ -122,6 +122,14 @@
             this.игратьToolStripMenuItem.Text = "Играть";
             this.игратьToolStripMenuItem.Click += new System.EventHandler(this.игратьToolStripMenuItem_Click);
             // 
+            // отменитьХодToolStripMenuItem
+            // 
+            this.отменитьХодToolStripMenuItem.Enabled = false;
+            this.отменитьХодToolStripMenuItem.Name = "отменитьХодToolStripMenuItem";
+            this.отменитьХодToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
+            this.отменитьХодToolStripMenuItem.Text = "Отменить ход";
+            this.отменитьХодToolStripMenuItem.Click += new System.EventHandler(this.отменитьХодToolStripMenuItem_Click);
+            // 
             // правилаToolStripMenuItem
             // 
             this.правилаToolStripMenuItem.Name = "правилаToolStripMenuItem";
@@ -138,14 +146,6 @@
             this.lblcolamout.Size = new System.Drawing.Size(31, 32);
             this.lblcolamout.TabIndex = 8;
             this.lblcolamout.Text = "0";
-            // 
-            // отменитьХодToolStripMenuItem
-            // 
-            this.отменитьХодToolStripMenuItem.Enabled = false;
-            this.отменитьХодToolStripMenuItem.Name = "отменитьХодToolStripMenuItem";
-            this.отменитьХодToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
-            this.отменитьХодToolStripMenuItem.Text = "Отменить ход";
-            this.отменитьХодToolStripMenuItem.Click += new System.EventHandler(this.отменитьХодToolStripMenuItem_Click);
             // 
             // label2
             // 
