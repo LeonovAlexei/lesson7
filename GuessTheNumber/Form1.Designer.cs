@@ -49,7 +49,7 @@
             this.tBProgAnswer.Name = "tBProgAnswer";
             this.tBProgAnswer.Size = new System.Drawing.Size(342, 39);
             this.tBProgAnswer.TabIndex = 2;
-            this.tBProgAnswer.Text = "Программа загадывает число от 1 до 100, \r\nа Вы попытайтесе его угадать за минимал" +
+            this.tBProgAnswer.Text = "Программа загадывает число от 1 до 100, \r\nа вы попытайтесе его угадать за минимал" +
     "ьное число попыток";
             // 
             // lbltxt
